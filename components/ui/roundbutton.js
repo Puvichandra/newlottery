@@ -222,7 +222,7 @@ export default function Roundbutton(props) {
 
 <div className='basis-12/12 w-full md:py-5 md:my-5 lg:basis-3/12 border-2 rounded-2xl border-white shadow-2xl drop-shadow-2xl border-spacing-14 shadow-slate-800'>
 <div className='px-auto text-center text-2xl mt-5 text-yellow-500'> Select Your Lucky 4D</div>
-<div className='px-auto text-center text-4xl mt-5 text-white  mx-5  '> {fnum?fnum:"X"}{snum?snum:"X"}{tnum?tnum:"X"}{rnum?rnum:"X"}</div>
+<div className='px-auto text-center text-4xl mt-5 text-white  mx-5  '> {fnum!==""?fnum:"X"}{snum!==""?snum:"X"}{tnum!==""?tnum:"X"}{rnum!==""?rnum:"X"}</div>
 <div className='flex flex-row gap-1  mt-5 justify-center '>
     
     <div className=' basis-1/5 p-4 mt-14'>
